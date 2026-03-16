@@ -94,7 +94,7 @@ if __name__ == "__main__":
     # "Fermi_theory_error" ->  Calculates the Fermi theory error for HNL decays
     # "total_sterile_width" -> Calculates the total decay width for a Sterile Neutrino
     # "plot_total_lifetime" -> Plots the total lifetime of a Sterile Neutrino over a mass range
-    TASK_TO_RUN = "PLOT_COMBINED_BRANCHING_RATIO_SM_ALP"  # Change this to switch tasks
+    TASK_TO_RUN = "plot_total_lifetime"  # Change this to switch tasks
     ####################################################################
     match TASK_TO_RUN: 
         case "SINGLE_CALCULATION":

@@ -554,6 +554,8 @@ class Plotting:
             Gamma_SM_tot  += gamma_SM
             Gamma_ALP_tot += gamma_ALP
             Gamma_total = Gamma_SM_tot + Gamma_ALP_tot
+            # gonna make a modified version for situation without the ALP
+            Gamma_total = Gamma_SM_tot
             lifetime_value = HBAR / Gamma_total if Gamma_total > 0 else np.inf
             lifetime_total_list.append(lifetime_value)
     
